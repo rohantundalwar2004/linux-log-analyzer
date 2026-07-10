@@ -1,45 +1,73 @@
 # 📊 Linux Log Analyzer
 
-A Bash-based Linux Log Analyzer that helps system administrators and DevOps engineers inspect log files quickly.
+![Bash](https://img.shields.io/badge/Bash-Scripting-green)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
+![GitHub](https://img.shields.io/badge/GitHub-Project-black)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+A Bash-based Linux Log Analyzer that helps System Administrators and DevOps Engineers inspect Linux log files quickly and efficiently.
 
 ---
 
-## 📸 Screenshots
+## 📑 Table of Contents
 
-### Main Menu
-
-![Main Menu](screenshots/main-menu.png)
-
----
-
-### Log Analysis Output
-
-![Output](screenshots/output.png)
+- Overview
+- Screenshots
+- Features
+- Technologies
+- Project Structure
+- How to Run
+- Use Cases
+- Skills Demonstrated
+- Future Enhancements
+- Author
+- License
 
 ---
 
 # 📌 Overview
 
-Linux Log Analyzer is a Bash scripting project designed to analyze Linux log files and extract useful information such as errors, warnings, top error messages, keyword matches, and log summaries.
+Linux Log Analyzer is a Bash Shell Scripting project designed to analyze Linux log files and extract useful information such as:
 
-It helps administrators troubleshoot systems faster using simple shell scripts.
+- Error Count
+- Warning Count
+- Keyword Search
+- Log Summary
+- Top Error Messages
+
+This project helps Linux System Administrators and DevOps Engineers troubleshoot systems faster using simple shell scripts.
+
+---
+
+# 📸 Screenshots
+
+## Main Menu
+
+![Main Menu](screenshots/main-menu.png)
+
+---
+
+## Log Analysis Output
+
+![Output](screenshots/output.png)
 
 ---
 
 # 🚀 Features
 
-- Error Counter
-- Warning Counter
-- Keyword Search
-- Log Summary
-- Top Error Messages
-- Menu-driven Interface
+- ✅ Error Counter
+- ✅ Warning Counter
+- ✅ Keyword Search
+- ✅ Log Summary
+- ✅ Top Error Messages
+- ✅ Menu-driven Interface
+- ✅ Modular Bash Scripts
 
 ---
 
-## 🛠 Technologies
+# 🛠 Technologies Used
 
-- Bash
+- Bash Shell Scripting
 - Linux Commands
 - Shell Scripting
 - Git
@@ -47,7 +75,7 @@ It helps administrators troubleshoot systems faster using simple shell scripts.
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 linux-log-analyzer/
@@ -55,10 +83,10 @@ linux-log-analyzer/
 ├── scripts/
 │   ├── analyzer.sh
 │   ├── error_counter.sh
+│   ├── warning_counter.sh
 │   ├── keyword_search.sh
 │   ├── log_summary.sh
-│   ├── top_errors.sh
-│   └── warning_counter.sh
+│   └── top_errors.sh
 │
 ├── screenshots/
 │   ├── main-menu.png
@@ -71,29 +99,76 @@ linux-log-analyzer/
 
 ---
 
-## ▶️ How to Run
+# ▶️ How to Run
 
 ```bash
+git clone https://github.com/rohantundalwar2004/linux-log-analyzer.git
+
+cd linux-log-analyzer
+
 chmod +x scripts/*.sh
+
 cd scripts
+
 ./analyzer.sh
 ```
 
 ---
 
-## 🎯 Use Cases
+# 🎯 Use Cases
 
 - Linux System Administration
 - DevOps Practice
 - Server Log Monitoring
-- Troubleshooting
-- Learning Bash Scripting
+- Log File Analysis
+- Troubleshooting Linux Systems
+- Learning Bash Shell Scripting
 
 ---
 
-## 👨‍💻 Author
+# 📚 Skills Demonstrated
+
+- Bash Shell Scripting
+- Linux Administration
+- File Handling
+- Text Processing
+- Modular Programming
+- Log File Analysis
+- Git Version Control
+- GitHub Repository Management
+
+---
+
+# 🔮 Future Enhancements
+
+- Support Multiple Log Files
+- Generate CSV Reports
+- Generate HTML Reports
+- Email Alert Notifications
+- Colored Terminal Output
+- Automatic Log Rotation Analysis
+
+---
+
+# 👨‍💻 Author
 
 **Rohan Tundalwar**
 
-Aspiring DevOps Engineer | Linux | Bash | Git | AWS
+Aspiring DevOps Engineer
 
+### Skills
+
+- Linux
+- Bash
+- Shell Scripting
+- Git
+- GitHub
+- AWS (Learning)
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for more details.
