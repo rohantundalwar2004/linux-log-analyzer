@@ -1,89 +1,68 @@
-# Linux Log Analyzer
+# 📊 Linux Log Analyzer
 
-A Bash-based log analysis tool that helps system administrators and DevOps engineers inspect log files quickly.
+A Bash-based Linux Log Analyzer that helps system administrators and DevOps engineers inspect log files quickly.
+
+---
+
+## 📸 Screenshots
+
+### Main Menu
+
+![Main Menu](screenshots/main-menu.png)
+
+---
+
+### Log Analysis Output
+
+![Output](screenshots/output.png)
 
 ---
 
 # 📌 Overview
 
-Linux Log Analyzer automates common log analysis tasks such as counting errors, searching keywords, summarizing logs, and identifying warnings.
+Linux Log Analyzer is a Bash scripting project designed to analyze Linux log files and extract useful information such as errors, warnings, top error messages, keyword matches, and log summaries.
 
-It provides an interactive menu for analyzing log files directly from the terminal.
-
----
-
-# 🚀 Modules
-
-## ✅ Error Counter
-
-Displays
-
-- Total ERROR entries
-- All ERROR log lines
+It helps administrators troubleshoot systems faster using simple shell scripts.
 
 ---
 
-## ✅ Warning Counter
+# 🚀 Features
 
-Displays
-
-- Total WARNING entries
-- All WARNING log lines
-
----
-
-## ✅ Keyword Search
-
-Allows searching for any custom keyword.
-
-Examples
-
-- INFO
-- ERROR
-- WARNING
-- FAILED
-- LOGIN
+- Error Counter
+- Warning Counter
+- Keyword Search
+- Log Summary
+- Top Error Messages
+- Menu-driven Interface
 
 ---
 
-## ✅ Log Summary
-
-Shows
-
-- Total lines
-- INFO count
-- WARNING count
-- ERROR count
-- Last 5 log entries
-
----
-
-## ✅ Top Errors
-
-Displays the most frequently occurring error messages.
-
----
-
-# 🛠 Technologies
+## 🛠 Technologies
 
 - Bash
-- Linux
+- Linux Commands
 - Shell Scripting
+- Git
+- GitHub
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
+```text
 linux-log-analyzer/
 │
 ├── scripts/
 │   ├── analyzer.sh
 │   ├── error_counter.sh
-│   ├── warning_counter.sh
 │   ├── keyword_search.sh
 │   ├── log_summary.sh
-│   └── top_errors.sh
+│   ├── top_errors.sh
+│   └── warning_counter.sh
+│
+├── screenshots/
+│   ├── main-menu.png
+│   └── output.png
 │
 ├── sample.log
 ├── README.md
@@ -92,31 +71,29 @@ linux-log-analyzer/
 
 ---
 
-# 🎯 Features
+## ▶️ How to Run
 
-- Interactive menu
-- Fast log searching
-- Error detection
-- Keyword filtering
-- Log summary generation
-
----
-
-# 📚 Linux Commands Used
-
-- grep
-- awk
-- wc
-- sort
-- uniq
-- head
-- tail
-- cat
+```bash
+chmod +x scripts/*.sh
+cd scripts
+./analyzer.sh
+```
 
 ---
 
-# 👨‍💻 Author
+## 🎯 Use Cases
+
+- Linux System Administration
+- DevOps Practice
+- Server Log Monitoring
+- Troubleshooting
+- Learning Bash Scripting
+
+---
+
+## 👨‍💻 Author
 
 **Rohan Tundalwar**
 
-DevOps Engineer (Learning)
+Aspiring DevOps Engineer | Linux | Bash | Git | AWS
+
